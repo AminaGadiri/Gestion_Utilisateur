@@ -1,0 +1,17 @@
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Application.deps.json
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Application.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Application.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\refint\Application.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\ref\Application.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Domain.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Domain.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Infrastructure.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Application\bin\Debug\net7.0\Infrastructure.pdb

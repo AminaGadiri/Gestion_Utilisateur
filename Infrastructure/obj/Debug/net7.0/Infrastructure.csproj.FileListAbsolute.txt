@@ -1,0 +1,15 @@
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\bin\Debug\net7.0\Domain.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\bin\Debug\net7.0\Domain.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete

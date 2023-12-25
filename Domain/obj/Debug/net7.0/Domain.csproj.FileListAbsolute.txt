@@ -1,0 +1,14 @@
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\bin\Debug\net7.0\Domain.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\bin\Debug\net7.0\Domain.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.pdb
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Domain\obj\Debug\net7.0\ref\Domain.dll
