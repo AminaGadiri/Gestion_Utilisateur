@@ -1,6 +1,7 @@
 ﻿using Application.AutoMapper;
 using Application.Offers.Queries.Role;
 using Domain.Interfaces;
+using Infrastructure.Health;
 using Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -27,6 +28,9 @@ namespace Application
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IUtilisateurRepository, UtilisateurRepository>();
             services.AddAutoMapper(typeof(AutoMapperProfiles));
+            services.AddHealthChecks()
+                    .AddCheck<ApiHealthCheck>("ExterneApiChecks", tags: new string[] { "ExterneApiChecks" })
+                    .AddCheck<UserApiCheck>("InterneApiChecks", tags: new string[] { "InterneApiChecks" });
             return services;
         }
     }

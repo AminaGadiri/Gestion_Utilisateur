@@ -90,3 +90,9 @@ D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Polly.dll
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Polly.Core.dll
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\RestSharp.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\HealthChecks.UI.Client.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\HealthChecks.UI.Core.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
