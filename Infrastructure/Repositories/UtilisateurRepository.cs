@@ -55,6 +55,7 @@ namespace Infrastructure.Repositories
             if (utilisateur != null)
             {
                 dbContext.Set<Utilisateur>().Update(utilisateur);
+                await dbContext.SaveChangesAsync();
                 return true;
             }
             return false;

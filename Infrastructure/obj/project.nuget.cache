@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DQXxduWGLBqUPXZeLTJ08Ah9LdG/80apwu03z+M/cMnei12TPGGc/KtsNtPcewFYUeJeePaXD7cIUMt/rJCEXg==",
+  "dgSpecHash": "6cbjJ/ByEn6o6EsHnYgcLCYmqxwL2Sppww4wDSJ/ed0ZC183ZCQsuVzhl8teICgHULxORPN3ydQX0IH2lCafSQ==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\7.0.0\\aspnetcore.healthchecks.sqlserver.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\7.1.0\\aspnetcore.healthchecks.ui.client.7.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\7.0.0\\aspnetcore.healthchecks.ui.core.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

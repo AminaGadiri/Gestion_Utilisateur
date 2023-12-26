@@ -79,12 +79,13 @@ namespace Gestion_Utilisateur.Controllers
         {
             if (!ModelState.IsValid)
                 return BadRequest();
-            var role = await roleRepository.GetByIdAsync(id);
 
-            mapper.Map(roleDto, role);
-            roleRepository.UpdateAsync(role);
-            await roleRepository.SaveAsync();
-            return Ok(role);
+            
+
+            var command = new UpdateRoleCommandeInfoRequest(id, roleDto);
+            var result = await mediator.Send(command);
+
+            return result ? NoContent() : BadRequest();
 
         }
         [HttpDelete]
@@ -93,14 +94,10 @@ namespace Gestion_Utilisateur.Controllers
        
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
-            var role = await roleRepository.DeleteAsync(id);
+            var command = new DeleteRoleCommandeInfoRequest(id);
+            var result = await mediator.Send(command);
 
-            if (role == null)
-            {
-                return NotFound();
-            }
-
-            return Ok("done");
+            return result ? NoContent() : BadRequest();
         }
 
 

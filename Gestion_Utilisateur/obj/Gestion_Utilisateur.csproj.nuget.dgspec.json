@@ -320,6 +320,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
               "version": "[7.1.0, )"

@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AspNetCore.HealthChecks.SqlServer/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.9"
+        },
+        "compile": {
+          "lib/netstandard2.0/HealthChecks.SqlServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HealthChecks.SqlServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AspNetCore.HealthChecks.UI.Client/7.1.0": {
         "type": "package",
         "dependencies": {
@@ -1106,6 +1123,20 @@
     }
   },
   "libraries": {
+    "AspNetCore.HealthChecks.SqlServer/7.0.0": {
+      "sha512": "H3xMIeToQTOniukoqnkIc6F1UZCJDuHut74WCr8hlQji5J5m0iyZITPsNnLIGwVQm3tkEHYy9TQCH7diSwQFfg==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.sqlserver/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.healthchecks.sqlserver.7.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.sqlserver.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/HealthChecks.SqlServer.dll",
+        "lib/netstandard2.0/HealthChecks.SqlServer.xml"
+      ]
+    },
     "AspNetCore.HealthChecks.UI.Client/7.1.0": {
       "sha512": "f7Z0Xw2C7mvL49/vtTpgn1ZLJPycBqpCPr7DVINaoeNdJ01aQ37JFfodxqA0KLxp+fGiIdLs9+ktbiSBfiMdRQ==",
       "type": "package",
@@ -2957,6 +2988,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AspNetCore.HealthChecks.SqlServer >= 7.0.0",
       "AspNetCore.HealthChecks.UI.Client >= 7.1.0",
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
@@ -3011,6 +3043,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AspNetCore.HealthChecks.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "AspNetCore.HealthChecks.UI.Client": {
             "target": "Package",
             "version": "[7.1.0, )"

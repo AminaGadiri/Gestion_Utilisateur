@@ -19,6 +19,18 @@
           "Application.dll": {}
         }
       },
+      "AspNetCore.HealthChecks.SqlServer/7.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HealthChecks.SqlServer.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "AspNetCore.HealthChecks.UI.Client/7.1.0": {
         "dependencies": {
           "AspNetCore.HealthChecks.UI.Core": "7.0.0",
@@ -653,6 +665,7 @@
       },
       "Infrastructure/1.0.0": {
         "dependencies": {
+          "AspNetCore.HealthChecks.SqlServer": "7.0.0",
           "AspNetCore.HealthChecks.UI.Client": "7.1.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
@@ -669,6 +682,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNetCore.HealthChecks.SqlServer/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H3xMIeToQTOniukoqnkIc6F1UZCJDuHut74WCr8hlQji5J5m0iyZITPsNnLIGwVQm3tkEHYy9TQCH7diSwQFfg==",
+      "path": "aspnetcore.healthchecks.sqlserver/7.0.0",
+      "hashPath": "aspnetcore.healthchecks.sqlserver.7.0.0.nupkg.sha512"
     },
     "AspNetCore.HealthChecks.UI.Client/7.1.0": {
       "type": "package",

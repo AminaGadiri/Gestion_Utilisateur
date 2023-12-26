@@ -96,3 +96,4 @@ D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\AM\Documents\jobintech\Bibliothèque\Gestion_Utilisateur\Gestion_Utilisateur\Gestion_Utilisateur\bin\Debug\net7.0\HealthChecks.SqlServer.dll

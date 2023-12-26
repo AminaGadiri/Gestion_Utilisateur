@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kZk9lIoCNrYx9t5+3yLevOTROpp6E/O83rTReAXXKNv31bKN353VBWpiRJ3jUJ6VJgGI18NnOmpD8DK51XZKng==",
+  "dgSpecHash": "OzlosUhcpasMy7ci3rZ4mBikE93H6Y/gU5U2JyCJJIiPz8YtlnpAZTrSHBVvZvYxI83aaeXdviYRqawXwtpyjg==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\7.0.0\\aspnetcore.healthchecks.sqlserver.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\7.1.0\\aspnetcore.healthchecks.ui.client.7.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\7.0.0\\aspnetcore.healthchecks.ui.core.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

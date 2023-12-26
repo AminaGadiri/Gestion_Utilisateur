@@ -86,7 +86,7 @@ namespace Gestion_Utilisateur.Controllers
 
             mapper.Map(utilisateurDto, utilisateur);
             utilisateurRepository.UpdateAsync(utilisateur);
-            await utilisateurRepository.SaveAsync();
+            //await utilisateurRepository.SaveAsync();
             return Ok(utilisateur);
 
         }

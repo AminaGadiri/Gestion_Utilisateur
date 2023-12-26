@@ -4,6 +4,7 @@ using Domain.Interfaces;
 using Infrastructure.Health;
 using Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,10 @@ namespace Application
             services.AddAutoMapper(typeof(AutoMapperProfiles));
             services.AddHealthChecks()
                     .AddCheck<ApiHealthCheck>("ExterneApiChecks", tags: new string[] { "ExterneApiChecks" })
-                    .AddCheck<UserApiCheck>("InterneApiChecks", tags: new string[] { "InterneApiChecks" });
+                    .AddCheck<UserApiCheck>("InterneApiChecks", tags: new string[] { "InterneApiChecks" })
+                    .AddCheck<SqlHealthCheck>("custom-sql", HealthStatus.Unhealthy);
+                    
+                    
             return services;
         }
     }

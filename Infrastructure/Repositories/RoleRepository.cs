@@ -55,6 +55,7 @@ namespace Infrastructure.Repositories
             if (role != null)
             {
                 dbContext.Set<Role>().Update(role);
+                await dbContext.SaveChangesAsync();
                 return true;
             }
             return false;
