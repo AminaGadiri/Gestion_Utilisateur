@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
 
 namespace Application
@@ -17,7 +18,22 @@ namespace Application
     public static class ApplicationConfiguration
     {
         public static IServiceCollection AddDependecyInjectionApplication(this IServiceCollection services)
-        {
+        {   // versioning
+            services.AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.ReportApiVersions = true;
+            }
+             );
+
+            services.AddVersionedApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+
+            // mediatR
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(
             typeof(GetRoleQueryHandler).Assembly
             //,typeof(GetRoleQueryRequest).Assembly,

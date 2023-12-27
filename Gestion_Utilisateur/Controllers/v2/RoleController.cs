@@ -11,9 +11,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
 using System.Data;
 
-namespace Gestion_Utilisateur.Controllers
+namespace Gestion_Utilisateur.Controllers.v2
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("2.0")]
     [ApiController]
     public class RoleController : ControllerBase
     {
@@ -30,7 +31,7 @@ namespace Gestion_Utilisateur.Controllers
             this.mediator = mediator;
         }
         [HttpGet]
-        
+
         public async Task<IActionResult> GetAll()
         {
             var query = new GetRoleQueryRequest();
@@ -44,7 +45,7 @@ namespace Gestion_Utilisateur.Controllers
         [EnableRateLimiting("fixedwindow")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
-           
+
             var role = await roleRepository.GetByIdAsync(id);
 
             if (role == null)
@@ -73,14 +74,14 @@ namespace Gestion_Utilisateur.Controllers
 
         [HttpPut]
         [Route("{id:Guid}")]
-       
+
         // [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] RoleDto roleDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            
+
 
             var command = new UpdateRoleCommandeInfoRequest(id, roleDto);
             var result = await mediator.Send(command);
@@ -91,7 +92,7 @@ namespace Gestion_Utilisateur.Controllers
         [HttpDelete]
         [Route("{id:Guid}")]
 
-       
+
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var command = new DeleteRoleCommandeInfoRequest(id);

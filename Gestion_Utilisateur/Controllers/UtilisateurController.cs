@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Gestion_Utilisateur.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersionNeutral]
     [ApiController]
     public class UtilisateurController : ControllerBase
     {
@@ -23,7 +24,7 @@ namespace Gestion_Utilisateur.Controllers
             this.mapper = mapper;
         }
         [HttpGet]
-        //[Authorize(Roles = "Reader")]
+       
         public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
@@ -77,7 +78,7 @@ namespace Gestion_Utilisateur.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
 
-        // [Authorize(Roles = "Writer")]
+       
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UtilisateurDto utilisateurDto)
         {
             if (!ModelState.IsValid)

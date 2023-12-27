@@ -5,7 +5,8 @@ using RestSharp;
 
 namespace Gestion_Utilisateur.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersionNeutral]
     [ApiController]
     public class RetryPolicyController : ControllerBase
     {

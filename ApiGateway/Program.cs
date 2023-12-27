@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // 1
 builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+
 builder.Services.AddControllers();
 //2
 builder.Services.AddOcelot();
