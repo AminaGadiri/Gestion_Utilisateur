@@ -1,5 +1,4 @@
 ﻿using Application.AutoMapper;
-using Application.Offers.Queries.Role;
 using Domain.Interfaces;
 using Infrastructure.Health;
 using Infrastructure.Repositories;
@@ -11,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
+using Application.Offers.Queries;
 
 namespace Application
 {

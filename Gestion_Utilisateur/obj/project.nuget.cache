@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v+HxUcJrvehJ7Qaqzenb8682+AuoqEEh7C5kVxdTa/JwFIL8X07PIDqngbQG5dtyk5nMxfvIz3tauLRHHHNXNA==",
+  "dgSpecHash": "acqPat44YfIO0xUGCb4EpC/goKSbA16BUEUcY5NHN/I58i8jwReO3VzOLku6YyLxuZHpcU/GVuZj9b1H6qE/gA==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Gestion_Utilisateur\\Gestion_Utilisateur.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\flurl.http\\4.0.0\\flurl.http.4.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

@@ -1,6 +1,6 @@
 ﻿using Application.DTO;
-using Application.Offers.Commandes.Roles;
-using Application.Offers.Queries.Role;
+using Application.Offers.Commandes;
+using Application.Offers.Queries;
 using AutoMapper;
 using Domain.Interfaces;
 using Domain.Models;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bNiM+NQaNBEmSDJgvXUD6WTplDcGRvkHPG6jWTJ4ddOrY4BtNU0BOBRLQP5bMaX0WNETtAoI9MzX5HWdjYkiFA==",
+  "dgSpecHash": "SfpP3Bu3ICkfAZ125yK7WdNWL6wnMTPedqD4faJPms7ez/SbxWvCwUPPcYnka0CzfBo4LljwnvsVThN2GV6fEg==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\flurl.http\\4.0.0\\flurl.http.4.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
