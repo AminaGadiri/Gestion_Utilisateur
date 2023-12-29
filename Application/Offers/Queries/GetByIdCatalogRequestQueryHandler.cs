@@ -13,6 +13,7 @@ namespace Application.Offers.Queries
     public class GetByIdCatalogRequestQueryHandler : IRequestHandler<GetByIdCatalogRequestQueryRequest, Catalogue>
     {
         private readonly string apiUrl = "https://localhost:7024/api/Catalogue";
+        
         public async Task<Catalogue> Handle(GetByIdCatalogRequestQueryRequest request, CancellationToken cancellationToken)
         {
             var response = await apiUrl

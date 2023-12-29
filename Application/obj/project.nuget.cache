@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SfpP3Bu3ICkfAZ125yK7WdNWL6wnMTPedqD4faJPms7ez/SbxWvCwUPPcYnka0CzfBo4LljwnvsVThN2GV6fEg==",
+  "dgSpecHash": "fBliTOQOs9Fzhb1wBNbJzOyKor+//cK/QtTWbe/Ryh/InjZI9qTq2tPSpEcDTLCnpQZlxmtvFTPcoifCxGsCoA==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.0\\microsoft.bcl.timeprovider.8.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
@@ -52,6 +53,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\polly.core\\8.2.0\\polly.core.8.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

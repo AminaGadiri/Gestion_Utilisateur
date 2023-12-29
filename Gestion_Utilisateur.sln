@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Gatway", "API Gatway", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{47FE58FB-1E34-4CA2-8DE7-123D5E4E2496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Catalogue1", "Gestion_Catalogue1\Gestion_Catalogue1.csproj", "{1290D85A-9B5E-49E6-A13D-A5DD6E41A3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Catalogue1", "Gestion_Catalogue1\Gestion_Catalogue1.csproj", "{1290D85A-9B5E-49E6-A13D-A5DD6E41A3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTest", "UserTest\UserTest.csproj", "{0DBD5E7D-E02C-462B-8D74-B7855C7D3B03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{1290D85A-9B5E-49E6-A13D-A5DD6E41A3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1290D85A-9B5E-49E6-A13D-A5DD6E41A3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1290D85A-9B5E-49E6-A13D-A5DD6E41A3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBD5E7D-E02C-462B-8D74-B7855C7D3B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBD5E7D-E02C-462B-8D74-B7855C7D3B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBD5E7D-E02C-462B-8D74-B7855C7D3B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBD5E7D-E02C-462B-8D74-B7855C7D3B03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

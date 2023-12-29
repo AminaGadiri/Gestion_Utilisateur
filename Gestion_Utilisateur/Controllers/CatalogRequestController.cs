@@ -22,31 +22,31 @@ namespace Gestion_Utilisateur.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Catalogue>>> GetCatalogRequest()
         {
-            try
-            {
+            //try
+            //{
                 var query = new GetAllCatalogRequestQueryRequest();
                 var result = await mediator.Send(query);
                 return Ok(result);
-            }
-            catch (FlurlHttpException ex)
-            {
-                return StatusCode((int)ex.Call.Response.StatusCode, ex.Message);
-            }
+            //}
+            //catch (FlurlHttpException ex)
+            //{
+            //    return StatusCode((int)ex.Call.Response.StatusCode, ex.Message);
+            //}
         }
         [HttpGet]
         [Route("{id:Guid}")]
         public async Task<ActionResult<IEnumerable<Catalogue>>> GetCatalogRequestById([FromRoute] Guid id)
         {
-            try
-            {
+            //try
+            //{
                 var query = new GetByIdCatalogRequestQueryRequest(id);
                 var result = await mediator.Send(query);
                 return Ok(result);
-            }
-            catch (FlurlHttpException ex)
-            {
-                return StatusCode((int)ex.Call.Response.StatusCode, ex.Message);
-            }
+            //}
+            //catch (FlurlHttpException ex)
+            //{
+            //    return StatusCode((int)ex.Call.Response.StatusCode, ex.Message);
+            //}
         }
     }
 }

@@ -46,15 +46,13 @@ namespace Gestion_Utilisateur.Controllers.v1
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
 
-            var role = await roleRepository.GetByIdAsync(id);
-
-            if (role == null)
+            var query = new GetByIdRoleQueryRequest(id);
+            var result = await mediator.Send(query);
+            if (result == null)
             {
                 return NotFound();
             }
-
-            // Return DTO back to client
-            return Ok(mapper.Map<RoleDto>(role));
+            return Ok(result);
         }
 
         [HttpPost]

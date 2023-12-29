@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Flurl;
 using Flurl.Http;
+using Polly;
+using Polly.Retry;
+using Azure;
+
 
 namespace Application.Offers.Queries
 {
@@ -16,10 +20,25 @@ namespace Application.Offers.Queries
         private readonly string apiUrl = "https://localhost:7024/api/Catalogue";
         public async Task<IEnumerable<Catalogue>> Handle(GetAllCatalogRequestQueryRequest request, CancellationToken cancellationToken)
         {
-            var response = await apiUrl
-                    .GetJsonAsync<IEnumerable<Catalogue>>();
-            return response;
+            //IEnumerable<Catalogue> response = null;
+
+            //var retrywaitPolicy = Policy
+            //    .Handle<Exception>()
+            //    .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(5));
+
+            //await retrywaitPolicy.ExecuteAsync(async () =>
+            //{
+            //    response = await apiUrl
+            //        .GetJsonAsync<IEnumerable<Catalogue>>();
+            //});
+
             
+            var response = await apiUrl
+                  .GetJsonAsync<IEnumerable<Catalogue>>();
+
+            return response;
+
         }
+
     }
 }
