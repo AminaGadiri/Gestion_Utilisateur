@@ -24,7 +24,7 @@ namespace Gestion_Utilisateur.Controllers
 
         // POST: /api/Auth/Register
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+       // [Authorize(Roles = "Admin")]
         [Route("Register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDto registerRequestDto)
         {

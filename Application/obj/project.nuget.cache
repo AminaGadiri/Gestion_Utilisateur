@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p07x/uY61n5MGD8JyOvdz/nGesC/1dm2o4lrs3iWHU4fasDHiCe6rl7KF3lk/y5JiLHc+HqkSamzpeCnTcYrAw==",
+  "dgSpecHash": "fiMRffL4Z6y7kYVo9d5LuBCw9C1EX8ML/nCXJmcuo8+Gg36MM2hB7tt1g0GQezlOKvUolPDNvoESE3Fh0ZdcSQ==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\hp\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.14\\microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.14\\microsoft.aspnetcore.cryptography.keyderivation.7.0.14.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.14.nupkg.sha512",

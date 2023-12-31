@@ -40,7 +40,7 @@ builder.Services.AddDbContext<BiblioAuthDBContext>(o =>
 o.UseSqlServer(builder.Configuration.GetConnectionString("AuConnectionString")));
 builder.Services.AddDependecyInjectionApplication();
 
-builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+
 
 builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter(policyName: "fixedwindow", options =>
 {
@@ -50,22 +50,7 @@ builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter(policyName: "fixedw
     options.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
 }).RejectionStatusCode = 401);
 
-// auth 2
-builder.Services.AddIdentityCore<IdentityUser>()
-    .AddRoles<IdentityRole>()
-    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Gestion_Utilisateur")
-    .AddEntityFrameworkStores<BiblioAuthDBContext>()
-    .AddDefaultTokenProviders();
 
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequiredLength = 6;
-    options.Password.RequiredUniqueChars = 1;
-});
 //auth
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
