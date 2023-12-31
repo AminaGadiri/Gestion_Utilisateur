@@ -28,5 +28,6 @@ namespace Application.DTO
         public string Adresse { get; set; }
         [Required]
         public bool JobInTech { get; set; } = false;
+        
     }
 }

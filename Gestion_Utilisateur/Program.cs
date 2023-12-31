@@ -9,6 +9,10 @@ using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,8 +34,14 @@ builder.Services.AddSwaggerGen(options =>
         Title = "Gestion_UtilisateurApi"
     });
 });
-builder.Services.AddDbContext<BiblioDBContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<BiblioDBContext>(o => 
+o.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<BiblioAuthDBContext>(o =>
+o.UseSqlServer(builder.Configuration.GetConnectionString("AuConnectionString")));
 builder.Services.AddDependecyInjectionApplication();
+
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+
 builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter(policyName: "fixedwindow", options =>
 {
     options.Window = TimeSpan.FromSeconds(10);
@@ -40,6 +50,36 @@ builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter(policyName: "fixedw
     options.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
 }).RejectionStatusCode = 401);
 
+// auth 2
+builder.Services.AddIdentityCore<IdentityUser>()
+    .AddRoles<IdentityRole>()
+    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Gestion_Utilisateur")
+    .AddEntityFrameworkStores<BiblioAuthDBContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 1;
+});
+//auth
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    });
 
 
 var app = builder.Build();
@@ -64,6 +104,8 @@ app.MapHealthChecks("/health", new HealthCheckOptions()
 app.UseRateLimiter();
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

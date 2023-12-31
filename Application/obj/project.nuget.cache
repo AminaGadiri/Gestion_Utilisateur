@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fBliTOQOs9Fzhb1wBNbJzOyKor+//cK/QtTWbe/Ryh/InjZI9qTq2tPSpEcDTLCnpQZlxmtvFTPcoifCxGsCoA==",
+  "dgSpecHash": "p07x/uY61n5MGD8JyOvdz/nGesC/1dm2o4lrs3iWHU4fasDHiCe6rl7KF3lk/y5JiLHc+HqkSamzpeCnTcYrAw==",
   "success": true,
   "projectFilePath": "D:\\AM\\Documents\\jobintech\\Bibliothèque\\Gestion_Utilisateur\\Gestion_Utilisateur\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,9 @@
     "C:\\Users\\hp\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.14\\microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.14\\microsoft.aspnetcore.cryptography.keyderivation.7.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.14.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -37,6 +40,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\7.0.9\\microsoft.extensions.diagnostics.healthchecks.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.14\\microsoft.extensions.identity.core.7.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.14\\microsoft.extensions.identity.stores.7.0.14.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",

@@ -3,12 +3,14 @@ using AutoMapper;
 using Domain.Interfaces;
 using Domain.Models;
 using Infrastructure.DB;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Gestion_Utilisateur.Controllers
 {
     [Route("api/v{version:apiVersion}/[controller]")]
+
     [ApiVersionNeutral]
     [ApiController]
     public class UtilisateurController : ControllerBase
@@ -24,7 +26,8 @@ namespace Gestion_Utilisateur.Controllers
             this.mapper = mapper;
         }
         [HttpGet]
-       
+
+        [Authorize(Roles = "Etudiant")]
         public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
